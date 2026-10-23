@@ -1,6 +1,6 @@
 
 # Pharma Revenue Forecasting
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]((https://medis-revenue-forecasting.streamlit.app/))
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medis-revenue-forecasting.streamlit.app/)
 
 Monthly revenue forecasting **per product** for a Tunisian pharmaceutical group (MEDIS & NEAPOLIS), with an interactive Streamlit app.
 
