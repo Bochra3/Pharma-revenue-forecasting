@@ -1,5 +1,3 @@
-# Private data
+# Project data
 
-Place approved source files in `raw/` and locally cleaned or transformed files in `processed/`.
-
-The datasets used for this project are private and are excluded from Git. Obtain authorized copies through the project owner; do not commit source data, processed data, or exports here.
+This repository includes the source files in `raw/` and the cleaned and transformed datasets in `processed/`. They are tracked in Git so deployments and fresh clones have the project data available.

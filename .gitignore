@@ -5,13 +5,7 @@ env/
 __pycache__/
 *.py[cod]
 
-# Private source data and data derived from it
-/data/*
-!/data/README.md
-
-# Trained models and cached feature tables may encode or expose private data
-/models/*
-!/models/README.md
+# Source data, processed data, and trained model artifacts are included for deployment
 
 # Generated report charts can expose company or client information
 /report/figures/*

@@ -1,4 +1,4 @@
-# Private model files
+# Model artifacts
 
 The Streamlit app expects these locally generated or authorized files in this folder:
 
@@ -8,4 +8,4 @@ The Streamlit app expects these locally generated or authorized files in this fo
 - `model_stage2.pkl`
 - `model_meta.pkl`
 
-These files are excluded from Git because they are derived from private project data. A fresh clone needs authorized copies before the dashboard can run.
+These generated model and feature files are tracked in Git so the dashboard can run in deployments and fresh clones without a separate model generation step.
