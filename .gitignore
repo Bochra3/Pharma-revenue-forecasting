@@ -1,0 +1,35 @@
+# Local Python environment and generated Python files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Private source data and data derived from it
+/data/*
+!/data/README.md
+
+# Trained models and cached feature tables may encode or expose private data
+/models/*
+!/models/README.md
+
+# Generated report charts can expose company or client information
+/report/figures/*
+!/report/figures/README.md
+
+# Proposal may contain company-confidential details
+/report/use_case_proposal.pdf
+
+# Notebook outputs and local editor / OS files
+.ipynb_checkpoints/
+notebooks/test_predictions.csv
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
